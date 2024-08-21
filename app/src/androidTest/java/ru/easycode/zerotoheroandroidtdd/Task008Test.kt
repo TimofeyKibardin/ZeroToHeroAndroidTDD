@@ -54,5 +54,5 @@ class Task008Test {
 
         activityScenarioRule.scenario.recreate()
         onView(withId(R.id.titleTextView)).check(matches(not(isDisplayed())))
-    }
+        }
 }
